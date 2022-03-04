@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+</head>
+<body>
+    <form action="amazone.php">
+        <div class="container">
+            <header>
+             <img width="250" src="Capture.JPG" alt="amazon">
+            </header>
+            <h3><b>Add a new address</b></h3>
+            <h4 style="color: darkblue":><img height="20" src="amazon_hub_pin.svg" alt=""> or find an Amazon pickup location near you..</h4>
+           
+           
+            <label for="place"><b>Country/Region</b></label><br>
+            <select name="place" id="place">
+                <option value="India">India</option>
+                <option value="Sri-lanka">Sri-lanka</option>
+                <option value="Bangladesh">Bangladesh</option>
+           </select>
+           <br><br>
+
+            <label for="user name"><b>First Name</b></label><br>
+            <input type="text" placeholder="First Name" name="name" id="user name" required>
+            <br><br>
+
+            <label for="user name"><b>Last Name</b></label><br>
+            <input type="text" placeholder="Last Name" name="name" id="user name" required>
+            <br><br>
+
+            <label for="mobile no."><b>Mobile number</b></label><br>
+            <input type="text" placeholder="+91 xxxxxxxxxx" name="mobile no." id="mobile no." required>
+            <br><br>
+
+            <label for="Pincode no."><b>Pincode no.</b></label><br>
+            <input type="text" placeholder="6 digits [0-9] PIN code" name="Pincode no." id="Pincode no." required>
+            <br><br>
+
+            <label for="local address"><b>Flat, House no., Building, Company, Apartment</b></label><br>
+            <input type="text" name="local address" id="local address" required>
+            <br><br>
+
+            <label for="local address2"><b>Area, Street, Sector, Village</b></label><br>
+            <input type="text" name="local address2" id="local address2" required>
+            <br><br>
+
+            <label for="Landmark"><b>Landmark</b></label><br>
+            <input type="text" placeholder="E.g. near apollo hospital" name="Landmark" id="Landmark" required>
+            <br><br>
+
+            <label for="Town/City"><b>Town/City</b></label><br>
+            <input type="text"name="Town/City" id="Town/City" required>
+
+            <label for="State"><b>State</b></label>
+            <select name="place" id="place" area-placeholder="Choose a state">
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="Goa">Goa</option>
+                <option value="Delhi">Delhi</option>
+           </select>
+           <br><br>
+                                              
+           
+           <input type="checkbox"name="Default add" id="Default add" required>
+           <label for="Default add" style="color: darkblue;">Make this my default address</label><br>
+           
+           <h3>Add delivery instructions</h3>
+           <p>Preferences are used to plan your delivery. However, shipments can sometimes arrive early or later than planned.</p>
+           
+           <label for="Address Type"><b>Address Type</b></label><br>
+           <select name="Address Type" id="Address Type" aria-placeholder="Choose a state">
+               <option value="1">Select an Address Type</option>
+               <option value="2">Home (7 AM - 9 PM delivery)</option>
+               <option value="3">Office/Commercial(10 AM - 6 PM delivery)</option>
+          </select>
+          <br><br>
+
+          <input type="submit" id="Town/City" required>
+
+
+
+
+
+
+
+
+            
+
+
+
+
+
+
+
+
+        </div>
+    </form>
+    <style>
+           
+           div
+           {
+            text-align: center;
+
+
+
+           }
+
+
+
+
+
+    </style>
+
+</body>
+</html>
