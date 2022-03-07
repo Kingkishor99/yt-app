@@ -1,0 +1,13 @@
+.one{
+    background-image: url(../../images/banner.jpg);
+    height: 200px;
+    position: absolute;
+}
+
+.two{
+    background-color: red;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    border: 2px red solid;
+}

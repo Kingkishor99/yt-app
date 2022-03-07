@@ -1,154 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DreamCode</title>
-    <link rel="shortcut icon" href="frankensteinbody.svg">
-    <link rel="stylesheet" href="dreamcode page 1.css">
-    
-
-</head>
-<body>
+    <link rel="shortcut icon" href="frankensteinbody.svg" />
+    <link rel="stylesheet" href="dreamcode page 1.css" />
+  </head>
+  <body>
     <section class="top-body">
-        <header class="reg" id="home">
-            <nav>
-                    <ul >
-                        <li id="home"><a href="#home"><b>Home</b></a></li>
-                        <li id="news"><a href="#courses1" ><b>Courses</b></a></li>
-                        <li id="dreamcode"> <b>DreamCode.com</b></li>  
-                        <li id="about"><a href="#courses2"><b>About</b></a></li>
-                        <li id="contact"><a href="#courses3"><b>Contact</b></a></li>
+      <header class="reg" id="home">
+        <nav>
+          <ul>
+            <li id="home">
+              <a href="#home"><b>Home</b></a>
+            </li>
+            <li id="news">
+              <a href="#courses1"><b>Courses</b></a>
+            </li>
+            <li id="dreamcode"><b>DreamCode.com</b></li>
+            <li id="about">
+              <a href="#courses2"><b>About</b></a>
+            </li>
+            <li id="contact">
+              <a href="#courses3"><b>Contact</b></a>
+            </li>
+          </ul>
 
-                    </ul>   
-                    
-                    <div class="main">
-                        <img src="so.jpg" alt="main image">
-                    </div>
-            </nav>
-    
-        </header>
-        
-        <section class="cont">
+          <div class="main">
+            <img src="so.jpg" alt="main image" />
+          </div>
+        </nav>
+      </header>
 
-            
+      <section class="cont">
+        <section class="contain">
+          <div>
+            <input
+              type="radio"
+              name="entry"
+              value="login"
+              id="loginbox"
+              class="radio1"
+              checked="checked"
+              locked
+            />
+            <label for="loginbox" class="title">Log In</label>
 
-            <section class="contain" >
-                <div>
+            <form action="login.php" class="login">
+              <label for="user name"><b>User Name</b></label
+              ><br />
+              <input
+                type="text"
+                placeholder="User Name"
+                name="name"
+                id="user name"
+                required
+              />
+              <br />
 
-                    
-                    <input type="radio" name="entry" value="login" id="loginbox" class="radio1" checked="checked" locked>
-                    <label for="loginbox" class="title">Log In</label>
+              <label for="password"><b>Password</b></label
+              ><br />
+              <input
+                type="password"
+                placeholder="Enter password"
+                name="name"
+                id="password"
+                required
+              />
+              <br />
 
-                    
-                    <form action="login.php" class="login">
-                        <label for="user name" ><b>User Name</b></label><br>
-                        <input type="text" placeholder="User Name" name="name" id="user name" required>
-                        <br> 
+              <input type="submit" class="okbutton" required />
+              <input type="reset" class="okbutton" />
+            </form>
+          </div>
 
-                        <label for="password"><b>Password</b></label><br>
-                        <input type="password" placeholder="Enter password" name="name" id="password" required>
-                        <br>
+          <div>
+            <input
+              type="radio"
+              name="entry"
+              value="login"
+              id="signbox"
+              class="radio2"
+            />
+            <label for="signbox" class="title">Sign In</label>
 
-                        <input type="submit" class="okbutton"required>
-                        <input type="reset" class="okbutton" >
+            <form action="signin.php" class="signin">
+              <label for="user name"><b>First Name</b></label
+              ><br />
+              <input
+                type="text"
+                placeholder="First Name"
+                name="name"
+                id="user name"
+                required
+              />
+              <br />
 
-                    </form>
+              <label for="user name"><b>Middle Name</b></label
+              ><br />
+              <input
+                type="text"
+                placeholder="Middle Name"
+                name="name"
+                id="user name"
+                required
+              />
+              <br />
 
+              <label for="user name"><b>Last Name</b></label
+              ><br />
+              <input
+                type="text"
+                placeholder="Last Name"
+                name="name"
+                id="user name"
+                required
+              />
+              <br />
 
-                </div>
+              <label for="password"><b>Password</b></label
+              ><br />
+              <input
+                type="password"
+                placeholder="Enter password"
+                name="name"
+                id="password"
+                required
+              />
+              <br />
 
-                <div >
-
-                    
-                    <input type="radio" name="entry" value="login" id="signbox" class="radio2">
-                    <label for="signbox" class="title">Sign In</label>      
-
-                    
-                    <form action="signin.php" class="signin">
-                        <label for="user name"><b>First Name</b></label><br>
-                        <input type="text" placeholder="First Name" name="name" id="user name" required>
-                        <br> 
-
-                        <label for="user name"><b>Middle Name</b></label><br>
-                        <input type="text" placeholder="Middle Name" name="name" id="user name" required>
-                        <br> 
-
-                        <label for="user name"><b>Last Name</b></label><br>
-                        <input type="text" placeholder="Last Name" name="name" id="user name" required>
-                        <br> 
-
-                        <label for="password"><b>Password</b></label><br>
-                        <input type="password" placeholder="Enter password" name="name" id="password" required>
-                        <br>
-
-                        <input type="submit" class="okbutton"required>
-                        <input type="reset" class="okbutton" >
-
-                    </form>
-
-                </div>  
-            </section>
-            <section class="contain1"></section >
-
+              <input type="submit" class="okbutton" required />
+              <input type="reset" class="okbutton" />
+            </form>
+          </div>
         </section>
+        <section class="contain1"></section>
+      </section>
     </section>
 
     <section class="courses" id="courses1">
-        <a href="#">
-            <div >
-               <h1>C++</h1>
-    
-            </div>
-        </a>
-        <a href="#">
-            <div >
-               <h1>C</h1>
-    
-            </div>
-        </a>
+      <a href="#">
+        <div>
+          <h1>C++</h1>
+        </div>
+      </a>
+      <a href="#">
+        <div>
+          <h1>C</h1>
+        </div>
+      </a>
 
-        <a href="#">
-            <div >
-               <h1>Java Script</h1>
-    
-            </div>
-        </a>
-        <a href="#">
-            <div >
-               <h1>HTML</h1>
-    
-            </div>
-        </a>
-        <a href="#">
-            <div >
-               <h1>CSS</h1>
-    
-            </div>
-        </a>
-       
-
-
+      <a href="#">
+        <div>
+          <h1>Java Script</h1>
+        </div>
+      </a>
+      <a href="#">
+        <div>
+          <h1>HTML</h1>
+        </div>
+      </a>
+      <a href="#">
+        <div>
+          <h1>CSS</h1>
+        </div>
+      </a>
     </section>
 
+    <footer>
+      <section class="footer">
+        <p class="firstchild" id="courses2">
+          DreamCode is optimized for learning, testing, and training. Examples
+          might be simplified to improve reading and basic understanding.
+          Tutorials, references, and examples are constantly reviewed to avoid
+          errors, but we cannot warrant full correctness of all content. While
+          using this site, you agree to have read and accepted our terms of use,
+          cookie and privacy policy. Copyright 1999-2022 by Refsnes Data.
+        </p>
+        <p>All Rights Reserved.</p>
 
-    <footer  >
-        
-            <section class="footer"  >
-                <p class="firstchild" id="courses2">DreamCode is optimized for learning, testing, and training. Examples might be simplified to improve reading and basic understanding. Tutorials, references, and examples are constantly reviewed to avoid errors, but we cannot warrant full correctness of all content. While using this site, you agree to have read and accepted our terms of use, cookie and privacy policy.
-                    Copyright 1999-2022 by Refsnes Data. 
-                </p>
-                <p >
-                    All Rights Reserved.
-                </p>
-
-                <p class="lastchild" id="courses3">
-                    www.DreamCode.com +91-777 777 7777, +91-989 898 9898
-                </p>
-            </section>
-         
+        <p class="lastchild" id="courses3">
+          www.DreamCode.com +91-777 777 7777, +91-989 898 9898
+        </p>
+      </section>
     </footer>
-        
-</body>
+  </body>
 </html>

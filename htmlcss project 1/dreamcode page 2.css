@@ -1,0 +1,22 @@
+input:checked ~ h1 {
+  display: none;
+}
+
+input:checked ~ .trail {
+  height: 100px;
+}
+
+body {
+  display: flex;
+}
+
+div {
+  justify-content: space-around;
+  margin: 50px;
+}
+
+.trail {
+  height: 200px;
+  width: 200px;
+  border: 3px solid black;
+}
